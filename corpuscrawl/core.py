@@ -170,9 +170,12 @@ def looks_like_wall(status: int, body: str) -> bool:
         return True
     if status in (403, 429, 503) and ("cloudflare" in low or "<title>attention" in low):
         return True
-    # near-empty SPA shell: a root mount + a script bundle, almost no readable text.
-    if status == 200 and len(body) < 20000:
-        text_chars = sum(c.isalpha() for c in body)
+    # near-empty SPA shell: a root mount + a script bundle, almost no readable text. Count VISIBLE
+    # text (script/style/tags stripped) — counting raw-body alpha lets inline CSS/JS mask a shell.
+    if status == 200 and len(body) < 30000:
+        visible = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", body, flags=re.S | re.I)
+        visible = re.sub(r"<[^>]+>", " ", visible)
+        text_chars = sum(c.isalpha() for c in visible)
         has_root = ('id="root"' in body or 'id="app"' in body or 'id="__next"' in body)
         if has_root and "<script" in body and text_chars < 500:
             return True

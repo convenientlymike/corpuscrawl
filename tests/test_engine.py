@@ -40,6 +40,16 @@ def test_wall_detection():
     assert not looks_like_wall(200, real)
 
 
+def test_wall_detection_css_heavy_shell():
+    # A JS SPA whose inline <style>/<script> carry lots of alpha chars, but almost no VISIBLE text.
+    # The old check counted raw-body alpha and missed this; it must count stripped text instead.
+    css = "<style>" + (".spinner_container{height:100vh;display:flex;justify-content:center}" * 8) + "</style>"
+    js = "<script>" + ("function initializeApplicationRuntimeBootstrap(){return true}" * 6) + "</script>"
+    shell = f'<html><head>{css}</head><body><div id="root">Loading</div>{js}</body></html>'
+    assert sum(c.isalpha() for c in shell) > 500  # raw-alpha would fool the old heuristic
+    assert looks_like_wall(200, shell)  # but visible-text is tiny → correctly flagged as a shell
+
+
 # ── wikitext → plaintext / sections ─────────────────────────────────────────────────────────────
 
 def test_wikitext_strips_templates_links_tables():
