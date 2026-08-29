@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "corpuscrawl"
+version = "1.0.0"
+description = "Build an offline, full-text-searchable corpus from any set of web/wiki sources — tiered fetch (API → static → real-browser), SQLite+FTS packs, resumable."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "convenientlymike" }]
+keywords = ["scraper", "crawler", "mediawiki", "wiki", "fts", "sqlite", "corpus", "knowledge-base", "offline-search"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+    "Topic :: Text Processing :: Indexing",
+]
+dependencies = [
+    "httpx>=0.24",
+    "lxml>=4.9",
+]
+
+[project.optional-dependencies]
+browser = ["playwright>=1.40"]      # the JS/Cloudflare escalation tier
+extract = ["trafilatura>=1.6"]      # best-in-class readable extraction for web sources
+yaml = ["pyyaml>=6.0"]              # YAML sources configs
+all = ["playwright>=1.40", "trafilatura>=1.6", "pyyaml>=6.0"]
+dev = ["pytest>=7", "ruff>=0.5"]
+
+[project.scripts]
+corpuscrawl = "corpuscrawl.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/convenientlymike/corpuscrawl"
+Repository = "https://github.com/convenientlymike/corpuscrawl"
+Issues = "https://github.com/convenientlymike/corpuscrawl/issues"
+Changelog = "https://github.com/convenientlymike/corpuscrawl/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["corpuscrawl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501", "B008"]

@@ -1,0 +1,26 @@
+{
+  "collection": "my-knowledge-base",
+  "sources": [
+    {
+      "id": "project-wiki",
+      "name": "Project Wiki",
+      "type": "mediawiki",
+      "url": "https://your-wiki.example.com",
+      "scrape": true
+    },
+    {
+      "id": "docs-site",
+      "name": "Docs Site",
+      "type": "web",
+      "url": "https://docs.example.com/guide",
+      "guide_root": "https://docs.example.com/guide",
+      "scrape": true
+    },
+    {
+      "id": "reference-tool",
+      "name": "A Reference Tool",
+      "type": "tool",
+      "url": "https://tool.example.com"
+    }
+  ]
+}
