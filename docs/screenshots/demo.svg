@@ -19,114 +19,114 @@
         font-weight: 700;
     }
 
-    .terminal-560723713-matrix {
+    .terminal-2997867395-matrix {
         font-family: Fira Code, monospace;
         font-size: 20px;
         line-height: 24.4px;
         font-variant-east-asian: full-width;
     }
 
-    .terminal-560723713-title {
+    .terminal-2997867395-title {
         font-size: 18px;
         font-weight: bold;
         font-family: arial;
     }
 
-    .terminal-560723713-r1 { fill: #98a84b;font-weight: bold }
-.terminal-560723713-r2 { fill: #c5c8c6 }
-.terminal-560723713-r3 { fill: #868887 }
-.terminal-560723713-r4 { fill: #68a0b3 }
-.terminal-560723713-r5 { fill: #868887;font-weight: bold }
-.terminal-560723713-r6 { fill: #1f5f9c;text-decoration: underline; }
-.terminal-560723713-r7 { fill: #98a84b }
-.terminal-560723713-r8 { fill: #c5c8c6;font-weight: bold }
-.terminal-560723713-r9 { fill: #68a0b3;font-weight: bold }
-.terminal-560723713-r10 { fill: #d0b344 }
-.terminal-560723713-r11 { fill: #6b546f }
-.terminal-560723713-r12 { fill: #a92a59 }
-.terminal-560723713-r13 { fill: #98729f }
-.terminal-560723713-r14 { fill: #608ab1;text-decoration: underline; }
-.terminal-560723713-r15 { fill: #d0b344;font-weight: bold }
-.terminal-560723713-r16 { fill: #98729f;font-weight: bold }
+    .terminal-2997867395-r1 { fill: #28c840;font-weight: bold }
+.terminal-2997867395-r2 { fill: #c5c8c6 }
+.terminal-2997867395-r3 { fill: #8a8f98 }
+.terminal-2997867395-r4 { fill: #56b6c2;font-weight: bold }
+.terminal-2997867395-r5 { fill: #c678dd;font-weight: bold }
+.terminal-2997867395-r6 { fill: #e5c07b;text-decoration: underline; }
+.terminal-2997867395-r7 { fill: #98c379 }
+.terminal-2997867395-r8 { fill: #98c379;font-weight: bold }
+.terminal-2997867395-r9 { fill: #5c6370;font-weight: bold }
+.terminal-2997867395-r10 { fill: #61afef;font-weight: bold }
+.terminal-2997867395-r11 { fill: #d19a66 }
+.terminal-2997867395-r12 { fill: #5c6370 }
+.terminal-2997867395-r13 { fill: #c678dd }
+.terminal-2997867395-r14 { fill: #e06c75;font-weight: bold }
+.terminal-2997867395-r15 { fill: #61afef;text-decoration: underline; }
+.terminal-2997867395-r16 { fill: #8a8f98;font-weight: bold }
     </style>
 
     <defs>
-    <clipPath id="terminal-560723713-clip-terminal">
+    <clipPath id="terminal-2997867395-clip-terminal">
       <rect x="0" y="0" width="1121.3999999999999" height="389.4" />
     </clipPath>
-    <clipPath id="terminal-560723713-line-0">
+    <clipPath id="terminal-2997867395-line-0">
     <rect x="0" y="1.5" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-1">
+<clipPath id="terminal-2997867395-line-1">
     <rect x="0" y="25.9" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-2">
+<clipPath id="terminal-2997867395-line-2">
     <rect x="0" y="50.3" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-3">
+<clipPath id="terminal-2997867395-line-3">
     <rect x="0" y="74.7" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-4">
+<clipPath id="terminal-2997867395-line-4">
     <rect x="0" y="99.1" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-5">
+<clipPath id="terminal-2997867395-line-5">
     <rect x="0" y="123.5" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-6">
+<clipPath id="terminal-2997867395-line-6">
     <rect x="0" y="147.9" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-7">
+<clipPath id="terminal-2997867395-line-7">
     <rect x="0" y="172.3" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-8">
+<clipPath id="terminal-2997867395-line-8">
     <rect x="0" y="196.7" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-9">
+<clipPath id="terminal-2997867395-line-9">
     <rect x="0" y="221.1" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-10">
+<clipPath id="terminal-2997867395-line-10">
     <rect x="0" y="245.5" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-11">
+<clipPath id="terminal-2997867395-line-11">
     <rect x="0" y="269.9" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-12">
+<clipPath id="terminal-2997867395-line-12">
     <rect x="0" y="294.3" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-13">
+<clipPath id="terminal-2997867395-line-13">
     <rect x="0" y="318.7" width="1122.4" height="24.65"/>
             </clipPath>
-<clipPath id="terminal-560723713-line-14">
+<clipPath id="terminal-2997867395-line-14">
     <rect x="0" y="343.1" width="1122.4" height="24.65"/>
             </clipPath>
     </defs>
 
-    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1139" height="438.4" rx="8"/><text class="terminal-560723713-title" fill="#c5c8c6" text-anchor="middle" x="569" y="27">corpuscrawl</text>
+    <rect fill="#292929" stroke="rgba(255,255,255,0.35)" stroke-width="1" x="1" y="1" width="1139" height="438.4" rx="8"/><text class="terminal-2997867395-title" fill="#c5c8c6" text-anchor="middle" x="569" y="27">corpuscrawl</text>
             <g transform="translate(26,22)">
             <circle cx="0" cy="0" r="7" fill="#ff5f57"/>
             <circle cx="22" cy="0" r="7" fill="#febc2e"/>
             <circle cx="44" cy="0" r="7" fill="#28c840"/>
             </g>
         
-    <g transform="translate(9, 41)" clip-path="url(#terminal-560723713-clip-terminal)">
+    <g transform="translate(9, 41)" clip-path="url(#terminal-2997867395-clip-terminal)">
     
-    <g class="terminal-560723713-matrix">
-    <text class="terminal-560723713-r1" x="0" y="20" textLength="12.2" clip-path="url(#terminal-560723713-line-0)">$</text><text class="terminal-560723713-r2" x="12.2" y="20" textLength="488" clip-path="url(#terminal-560723713-line-0)">&#160;corpuscrawl&#160;crawl&#160;--config&#160;sources.json</text><text class="terminal-560723713-r2" x="1122.4" y="20" textLength="12.2" clip-path="url(#terminal-560723713-line-0)">
-</text><text class="terminal-560723713-r3" x="0" y="44.4" textLength="122" clip-path="url(#terminal-560723713-line-1)">===&#160;crawl&#160;</text><text class="terminal-560723713-r4" x="122" y="44.4" textLength="268.4" clip-path="url(#terminal-560723713-line-1)">pokemon-go/fandom-wiki</text><text class="terminal-560723713-r5" x="402.6" y="44.4" textLength="12.2" clip-path="url(#terminal-560723713-line-1)">[</text><text class="terminal-560723713-r3" x="414.8" y="44.4" textLength="109.8" clip-path="url(#terminal-560723713-line-1)">mediawiki</text><text class="terminal-560723713-r5" x="524.6" y="44.4" textLength="12.2" clip-path="url(#terminal-560723713-line-1)">]</text><text class="terminal-560723713-r6" x="549" y="44.4" textLength="341.6" clip-path="url(#terminal-560723713-line-1)">https://pokemongo.fandom.com</text><text class="terminal-560723713-r3" x="890.6" y="44.4" textLength="48.8" clip-path="url(#terminal-560723713-line-1)">&#160;===</text><text class="terminal-560723713-r2" x="1122.4" y="44.4" textLength="12.2" clip-path="url(#terminal-560723713-line-1)">
-</text><text class="terminal-560723713-r7" x="24.4" y="68.8" textLength="12.2" clip-path="url(#terminal-560723713-line-2)">+</text><text class="terminal-560723713-r1" x="36.6" y="68.8" textLength="48.8" clip-path="url(#terminal-560723713-line-2)">3046</text><text class="terminal-560723713-r7" x="85.4" y="68.8" textLength="73.2" clip-path="url(#terminal-560723713-line-2)">&#160;pages</text><text class="terminal-560723713-r2" x="158.6" y="68.8" textLength="122" clip-path="url(#terminal-560723713-line-2)">&#160;this&#160;run&#160;</text><text class="terminal-560723713-r8" x="280.6" y="68.8" textLength="12.2" clip-path="url(#terminal-560723713-line-2)">(</text><text class="terminal-560723713-r9" x="292.8" y="68.8" textLength="48.8" clip-path="url(#terminal-560723713-line-2)">3046</text><text class="terminal-560723713-r2" x="341.6" y="68.8" textLength="97.6" clip-path="url(#terminal-560723713-line-2)">&#160;total,&#160;</text><text class="terminal-560723713-r9" x="439.2" y="68.8" textLength="61" clip-path="url(#terminal-560723713-line-2)">16362</text><text class="terminal-560723713-r2" x="500.2" y="68.8" textLength="85.4" clip-path="url(#terminal-560723713-line-2)">&#160;images</text><text class="terminal-560723713-r8" x="585.6" y="68.8" textLength="12.2" clip-path="url(#terminal-560723713-line-2)">)</text><text class="terminal-560723713-r2" x="597.8" y="68.8" textLength="48.8" clip-path="url(#terminal-560723713-line-2)">&#160;in&#160;</text><text class="terminal-560723713-r10" x="646.6" y="68.8" textLength="36.6" clip-path="url(#terminal-560723713-line-2)">68s</text><text class="terminal-560723713-r2" x="1122.4" y="68.8" textLength="12.2" clip-path="url(#terminal-560723713-line-2)">
-</text><text class="terminal-560723713-r3" x="24.4" y="93.2" textLength="85.4" clip-path="url(#terminal-560723713-line-3)">pack:&#160;~</text><text class="terminal-560723713-r11" x="109.8" y="93.2" textLength="524.6" clip-path="url(#terminal-560723713-line-3)">/.corpuscrawl/packs/pokemon-go/fandom-wiki/</text><text class="terminal-560723713-r12" x="634.4" y="93.2" textLength="134.2" clip-path="url(#terminal-560723713-line-3)">pack.sqlite</text><text class="terminal-560723713-r2" x="1122.4" y="93.2" textLength="12.2" clip-path="url(#terminal-560723713-line-3)">
-</text><text class="terminal-560723713-r2" x="1122.4" y="117.6" textLength="12.2" clip-path="url(#terminal-560723713-line-4)">
-</text><text class="terminal-560723713-r1" x="0" y="142" textLength="12.2" clip-path="url(#terminal-560723713-line-5)">$</text><text class="terminal-560723713-r2" x="12.2" y="142" textLength="244" clip-path="url(#terminal-560723713-line-5)">&#160;corpuscrawl&#160;search&#160;</text><text class="terminal-560723713-r13" x="256.2" y="142" textLength="134.2" clip-path="url(#terminal-560723713-line-5)">&quot;raid&#160;boss&quot;</text><text class="terminal-560723713-r2" x="390.4" y="142" textLength="292.8" clip-path="url(#terminal-560723713-line-5)">&#160;--collection&#160;pokemon-go</text><text class="terminal-560723713-r2" x="1122.4" y="142" textLength="12.2" clip-path="url(#terminal-560723713-line-5)">
-</text><text class="terminal-560723713-r2" x="1122.4" y="166.4" textLength="12.2" clip-path="url(#terminal-560723713-line-6)">
-</text><text class="terminal-560723713-r8" x="0" y="190.8" textLength="134.2" clip-path="url(#terminal-560723713-line-7)">Raid&#160;Battle</text><text class="terminal-560723713-r5" x="158.6" y="190.8" textLength="12.2" clip-path="url(#terminal-560723713-line-7)">(</text><text class="terminal-560723713-r3" x="170.8" y="190.8" textLength="268.4" clip-path="url(#terminal-560723713-line-7)">pokemon-go/fandom-wiki</text><text class="terminal-560723713-r5" x="439.2" y="190.8" textLength="12.2" clip-path="url(#terminal-560723713-line-7)">)</text><text class="terminal-560723713-r2" x="1122.4" y="190.8" textLength="12.2" clip-path="url(#terminal-560723713-line-7)">
-</text><text class="terminal-560723713-r14" x="24.4" y="215.2" textLength="549" clip-path="url(#terminal-560723713-line-8)">https://pokemongo.fandom.com/wiki/Raid_Battle</text><text class="terminal-560723713-r2" x="1122.4" y="215.2" textLength="12.2" clip-path="url(#terminal-560723713-line-8)">
-</text><text class="terminal-560723713-r3" x="24.4" y="239.6" textLength="48.8" clip-path="url(#terminal-560723713-line-9)">…&#160;A&#160;</text><text class="terminal-560723713-r15" x="73.2" y="239.6" textLength="12.2" clip-path="url(#terminal-560723713-line-9)">[</text><text class="terminal-560723713-r10" x="85.4" y="239.6" textLength="48.8" clip-path="url(#terminal-560723713-line-9)">Raid</text><text class="terminal-560723713-r15" x="134.2" y="239.6" textLength="12.2" clip-path="url(#terminal-560723713-line-9)">]</text><text class="terminal-560723713-r15" x="158.6" y="239.6" textLength="12.2" clip-path="url(#terminal-560723713-line-9)">[</text><text class="terminal-560723713-r10" x="170.8" y="239.6" textLength="48.8" clip-path="url(#terminal-560723713-line-9)">Boss</text><text class="terminal-560723713-r15" x="219.6" y="239.6" textLength="12.2" clip-path="url(#terminal-560723713-line-9)">]</text><text class="terminal-560723713-r3" x="231.8" y="239.6" textLength="805.2" clip-path="url(#terminal-560723713-line-9)">&#160;is&#160;a&#160;powerful&#160;Pokémon&#160;that&#160;appears&#160;at&#160;a&#160;Gym&#160;…&#160;defeat&#160;it&#160;in&#160;time&#160;…</text><text class="terminal-560723713-r2" x="1122.4" y="239.6" textLength="12.2" clip-path="url(#terminal-560723713-line-9)">
-</text><text class="terminal-560723713-r2" x="1122.4" y="264" textLength="12.2" clip-path="url(#terminal-560723713-line-10)">
-</text><text class="terminal-560723713-r8" x="0" y="288.4" textLength="170.8" clip-path="url(#terminal-560723713-line-11)">Legendary&#160;Raid</text><text class="terminal-560723713-r5" x="195.2" y="288.4" textLength="12.2" clip-path="url(#terminal-560723713-line-11)">(</text><text class="terminal-560723713-r3" x="207.4" y="288.4" textLength="268.4" clip-path="url(#terminal-560723713-line-11)">pokemon-go/fandom-wiki</text><text class="terminal-560723713-r5" x="475.8" y="288.4" textLength="12.2" clip-path="url(#terminal-560723713-line-11)">)</text><text class="terminal-560723713-r2" x="1122.4" y="288.4" textLength="12.2" clip-path="url(#terminal-560723713-line-11)">
-</text><text class="terminal-560723713-r14" x="24.4" y="312.8" textLength="585.6" clip-path="url(#terminal-560723713-line-12)">https://pokemongo.fandom.com/wiki/Legendary_Raid</text><text class="terminal-560723713-r2" x="1122.4" y="312.8" textLength="12.2" clip-path="url(#terminal-560723713-line-12)">
-</text><text class="terminal-560723713-r3" x="24.4" y="337.2" textLength="146.4" clip-path="url(#terminal-560723713-line-13)">…&#160;Legendary&#160;</text><text class="terminal-560723713-r15" x="170.8" y="337.2" textLength="12.2" clip-path="url(#terminal-560723713-line-13)">[</text><text class="terminal-560723713-r10" x="183" y="337.2" textLength="48.8" clip-path="url(#terminal-560723713-line-13)">Raid</text><text class="terminal-560723713-r15" x="231.8" y="337.2" textLength="12.2" clip-path="url(#terminal-560723713-line-13)">]</text><text class="terminal-560723713-r15" x="256.2" y="337.2" textLength="12.2" clip-path="url(#terminal-560723713-line-13)">[</text><text class="terminal-560723713-r10" x="268.4" y="337.2" textLength="48.8" clip-path="url(#terminal-560723713-line-13)">Boss</text><text class="terminal-560723713-r15" x="317.2" y="337.2" textLength="12.2" clip-path="url(#terminal-560723713-line-13)">]</text><text class="terminal-560723713-r3" x="329.4" y="337.2" textLength="561.2" clip-path="url(#terminal-560723713-line-13)">es&#160;rotate&#160;monthly,&#160;caught&#160;with&#160;Premier&#160;Balls&#160;…</text><text class="terminal-560723713-r2" x="1122.4" y="337.2" textLength="12.2" clip-path="url(#terminal-560723713-line-13)">
-</text><text class="terminal-560723713-r2" x="1122.4" y="361.6" textLength="12.2" clip-path="url(#terminal-560723713-line-14)">
-</text><text class="terminal-560723713-r9" x="0" y="386" textLength="24.4" clip-path="url(#terminal-560723713-line-15)">12</text><text class="terminal-560723713-r16" x="36.6" y="386" textLength="73.2" clip-path="url(#terminal-560723713-line-15)">result</text><text class="terminal-560723713-r8" x="109.8" y="386" textLength="12.2" clip-path="url(#terminal-560723713-line-15)">(</text><text class="terminal-560723713-r8" x="122" y="386" textLength="12.2" clip-path="url(#terminal-560723713-line-15)">s</text><text class="terminal-560723713-r8" x="134.2" y="386" textLength="12.2" clip-path="url(#terminal-560723713-line-15)">)</text><text class="terminal-560723713-r2" x="1122.4" y="386" textLength="12.2" clip-path="url(#terminal-560723713-line-15)">
+    <g class="terminal-2997867395-matrix">
+    <text class="terminal-2997867395-r1" x="0" y="20" textLength="12.2" clip-path="url(#terminal-2997867395-line-0)">$</text><text class="terminal-2997867395-r2" x="12.2" y="20" textLength="488" clip-path="url(#terminal-2997867395-line-0)">&#160;corpuscrawl&#160;crawl&#160;--config&#160;sources.json</text><text class="terminal-2997867395-r2" x="1122.4" y="20" textLength="12.2" clip-path="url(#terminal-2997867395-line-0)">
+</text><text class="terminal-2997867395-r3" x="0" y="44.4" textLength="122" clip-path="url(#terminal-2997867395-line-1)">=== crawl </text><text class="terminal-2997867395-r4" x="122" y="44.4" textLength="231.8" clip-path="url(#terminal-2997867395-line-1)">docs/mediawiki-docs</text><text class="terminal-2997867395-r2" x="353.8" y="44.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-1)"> </text><text class="terminal-2997867395-r5" x="366" y="44.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-1)">[</text><text class="terminal-2997867395-r3" x="378.2" y="44.4" textLength="109.8" clip-path="url(#terminal-2997867395-line-1)">mediawiki</text><text class="terminal-2997867395-r5" x="488" y="44.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-1)">]</text><text class="terminal-2997867395-r2" x="500.2" y="44.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-1)"> </text><text class="terminal-2997867395-r6" x="512.4" y="44.4" textLength="305" clip-path="url(#terminal-2997867395-line-1)">https://www.mediawiki.org</text><text class="terminal-2997867395-r3" x="817.4" y="44.4" textLength="48.8" clip-path="url(#terminal-2997867395-line-1)"> ===</text><text class="terminal-2997867395-r2" x="1122.4" y="44.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-1)">
+</text><text class="terminal-2997867395-r7" x="24.4" y="68.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-2)">+</text><text class="terminal-2997867395-r8" x="36.6" y="68.8" textLength="48.8" clip-path="url(#terminal-2997867395-line-2)">3046</text><text class="terminal-2997867395-r7" x="85.4" y="68.8" textLength="73.2" clip-path="url(#terminal-2997867395-line-2)">&#160;pages</text><text class="terminal-2997867395-r2" x="158.6" y="68.8" textLength="122" clip-path="url(#terminal-2997867395-line-2)">&#160;this&#160;run&#160;</text><text class="terminal-2997867395-r9" x="280.6" y="68.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-2)">(</text><text class="terminal-2997867395-r10" x="292.8" y="68.8" textLength="48.8" clip-path="url(#terminal-2997867395-line-2)">3046</text><text class="terminal-2997867395-r2" x="341.6" y="68.8" textLength="97.6" clip-path="url(#terminal-2997867395-line-2)">&#160;total,&#160;</text><text class="terminal-2997867395-r10" x="439.2" y="68.8" textLength="61" clip-path="url(#terminal-2997867395-line-2)">16362</text><text class="terminal-2997867395-r2" x="500.2" y="68.8" textLength="85.4" clip-path="url(#terminal-2997867395-line-2)">&#160;images</text><text class="terminal-2997867395-r9" x="585.6" y="68.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-2)">)</text><text class="terminal-2997867395-r2" x="597.8" y="68.8" textLength="48.8" clip-path="url(#terminal-2997867395-line-2)">&#160;in&#160;</text><text class="terminal-2997867395-r11" x="646.6" y="68.8" textLength="36.6" clip-path="url(#terminal-2997867395-line-2)">68s</text><text class="terminal-2997867395-r2" x="1122.4" y="68.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-2)">
+</text><text class="terminal-2997867395-r3" x="24.4" y="93.2" textLength="85.4" clip-path="url(#terminal-2997867395-line-3)">pack:&#160;~</text><text class="terminal-2997867395-r12" x="109.8" y="93.2" textLength="488" clip-path="url(#terminal-2997867395-line-3)">/.corpuscrawl/packs/docs/mediawiki-docs/</text><text class="terminal-2997867395-r13" x="597.8" y="93.2" textLength="134.2" clip-path="url(#terminal-2997867395-line-3)">pack.sqlite</text><text class="terminal-2997867395-r2" x="1122.4" y="93.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-3)">
+</text><text class="terminal-2997867395-r2" x="1122.4" y="117.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-4)">
+</text><text class="terminal-2997867395-r1" x="0" y="142" textLength="12.2" clip-path="url(#terminal-2997867395-line-5)">$</text><text class="terminal-2997867395-r2" x="12.2" y="142" textLength="244" clip-path="url(#terminal-2997867395-line-5)">&#160;corpuscrawl&#160;search&#160;</text><text class="terminal-2997867395-r14" x="256.2" y="142" textLength="219.6" clip-path="url(#terminal-2997867395-line-5)">&quot;parser&#160;functions&quot;</text><text class="terminal-2997867395-r2" x="475.8" y="142" textLength="219.6" clip-path="url(#terminal-2997867395-line-5)">&#160;--collection&#160;docs</text><text class="terminal-2997867395-r2" x="1122.4" y="142" textLength="12.2" clip-path="url(#terminal-2997867395-line-5)">
+</text><text class="terminal-2997867395-r2" x="1122.4" y="166.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-6)">
+</text><text class="terminal-2997867395-r9" x="0" y="190.8" textLength="305" clip-path="url(#terminal-2997867395-line-7)">Extension:ParserFunctions</text><text class="terminal-2997867395-r5" x="329.4" y="190.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-7)">(</text><text class="terminal-2997867395-r3" x="341.6" y="190.8" textLength="231.8" clip-path="url(#terminal-2997867395-line-7)">docs/mediawiki-docs</text><text class="terminal-2997867395-r5" x="573.4" y="190.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-7)">)</text><text class="terminal-2997867395-r2" x="1122.4" y="190.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-7)">
+</text><text class="terminal-2997867395-r15" x="24.4" y="215.2" textLength="683.2" clip-path="url(#terminal-2997867395-line-8)">https://www.mediawiki.org/wiki/Extension:ParserFunctions</text><text class="terminal-2997867395-r2" x="1122.4" y="215.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-8)">
+</text><text class="terminal-2997867395-r3" x="24.4" y="239.6" textLength="24.4" clip-path="url(#terminal-2997867395-line-9)">… </text><text class="terminal-2997867395-r9" x="48.8" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">[</text><text class="terminal-2997867395-r11" x="61" y="239.6" textLength="73.2" clip-path="url(#terminal-2997867395-line-9)">Parser</text><text class="terminal-2997867395-r9" x="134.2" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">]</text><text class="terminal-2997867395-r9" x="146.4" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">[</text><text class="terminal-2997867395-r11" x="158.6" y="239.6" textLength="109.8" clip-path="url(#terminal-2997867395-line-9)">functions</text><text class="terminal-2997867395-r9" x="268.4" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">]</text><text class="terminal-2997867395-r3" x="280.6" y="239.6" textLength="549" clip-path="url(#terminal-2997867395-line-9)"> add&#160;logic&#160;+&#160;string&#160;handling&#160;to&#160;wikitext&#160;via&#160;</text><text class="terminal-2997867395-r16" x="829.6" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">{</text><text class="terminal-2997867395-r16" x="841.8" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">{</text><text class="terminal-2997867395-r3" x="854" y="239.6" textLength="48.8" clip-path="url(#terminal-2997867395-line-9)">#if:</text><text class="terminal-2997867395-r16" x="902.8" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">}</text><text class="terminal-2997867395-r16" x="915" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">}</text><text class="terminal-2997867395-r3" x="927.2" y="239.6" textLength="24.4" clip-path="url(#terminal-2997867395-line-9)">,&#160;</text><text class="terminal-2997867395-r16" x="951.6" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">{</text><text class="terminal-2997867395-r16" x="963.8" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">{</text><text class="terminal-2997867395-r3" x="976" y="239.6" textLength="97.6" clip-path="url(#terminal-2997867395-line-9)">#switch:</text><text class="terminal-2997867395-r16" x="1073.6" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">}</text><text class="terminal-2997867395-r16" x="1085.8" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">}</text><text class="terminal-2997867395-r3" x="1098" y="239.6" textLength="24.4" clip-path="url(#terminal-2997867395-line-9)"> …</text><text class="terminal-2997867395-r2" x="1122.4" y="239.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-9)">
+</text><text class="terminal-2997867395-r2" x="1122.4" y="264" textLength="12.2" clip-path="url(#terminal-2997867395-line-10)">
+</text><text class="terminal-2997867395-r9" x="0" y="288.4" textLength="195.2" clip-path="url(#terminal-2997867395-line-11)">Help:Magic&#160;words</text><text class="terminal-2997867395-r5" x="219.6" y="288.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-11)">(</text><text class="terminal-2997867395-r3" x="231.8" y="288.4" textLength="231.8" clip-path="url(#terminal-2997867395-line-11)">docs/mediawiki-docs</text><text class="terminal-2997867395-r5" x="463.6" y="288.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-11)">)</text><text class="terminal-2997867395-r2" x="1122.4" y="288.4" textLength="12.2" clip-path="url(#terminal-2997867395-line-11)">
+</text><text class="terminal-2997867395-r15" x="24.4" y="312.8" textLength="573.4" clip-path="url(#terminal-2997867395-line-12)">https://www.mediawiki.org/wiki/Help:Magic_words</text><text class="terminal-2997867395-r2" x="1122.4" y="312.8" textLength="12.2" clip-path="url(#terminal-2997867395-line-12)">
+</text><text class="terminal-2997867395-r3" x="24.4" y="337.2" textLength="280.6" clip-path="url(#terminal-2997867395-line-13)">… built-in&#160;variables&#160;+ </text><text class="terminal-2997867395-r9" x="305" y="337.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-13)">[</text><text class="terminal-2997867395-r11" x="317.2" y="337.2" textLength="73.2" clip-path="url(#terminal-2997867395-line-13)">parser</text><text class="terminal-2997867395-r9" x="390.4" y="337.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-13)">]</text><text class="terminal-2997867395-r9" x="402.6" y="337.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-13)">[</text><text class="terminal-2997867395-r11" x="414.8" y="337.2" textLength="109.8" clip-path="url(#terminal-2997867395-line-13)">functions</text><text class="terminal-2997867395-r9" x="524.6" y="337.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-13)">]</text><text class="terminal-2997867395-r3" x="536.8" y="337.2" textLength="451.4" clip-path="url(#terminal-2997867395-line-13)"> the&#160;software&#160;substitutes&#160;at&#160;render …</text><text class="terminal-2997867395-r2" x="1122.4" y="337.2" textLength="12.2" clip-path="url(#terminal-2997867395-line-13)">
+</text><text class="terminal-2997867395-r2" x="1122.4" y="361.6" textLength="12.2" clip-path="url(#terminal-2997867395-line-14)">
+</text><text class="terminal-2997867395-r10" x="0" y="386" textLength="24.4" clip-path="url(#terminal-2997867395-line-15)">12</text><text class="terminal-2997867395-r12" x="24.4" y="386" textLength="12.2" clip-path="url(#terminal-2997867395-line-15)"> </text><text class="terminal-2997867395-r9" x="36.6" y="386" textLength="73.2" clip-path="url(#terminal-2997867395-line-15)">result</text><text class="terminal-2997867395-r9" x="109.8" y="386" textLength="12.2" clip-path="url(#terminal-2997867395-line-15)">(</text><text class="terminal-2997867395-r12" x="122" y="386" textLength="12.2" clip-path="url(#terminal-2997867395-line-15)">s</text><text class="terminal-2997867395-r9" x="134.2" y="386" textLength="12.2" clip-path="url(#terminal-2997867395-line-15)">)</text><text class="terminal-2997867395-r2" x="1122.4" y="386" textLength="12.2" clip-path="url(#terminal-2997867395-line-15)">
 </text>
     </g>
     </g>

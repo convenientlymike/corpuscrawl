@@ -33,7 +33,7 @@ famously false-negatives an explicitly-*allowed* path).
 **corpuscrawl** solves all of that once, universally:
 
 - **One command → a searchable local corpus.** `corpuscrawl crawl --config sources.json` builds a
-  SQLite + FTS5 pack per source; `corpuscrawl search "raid boss"` returns ranked hits with snippets in
+  SQLite + FTS5 pack per source; `corpuscrawl search "parser functions"` returns ranked hits with snippets in
   milliseconds, offline.
 - **Domain-agnostic.** A *collection* is any namespace you choose (a project, a topic, a game, a
   product). The engine has zero knowledge of your domain — sources are pure config.
@@ -77,8 +77,8 @@ no sign-up. Install, then build and search a corpus in three lines:
 
 ```bash
 pip install corpuscrawl
-corpuscrawl crawl --url https://pokemongo.fandom.com --type mediawiki --collection demo --max-pages 50
-corpuscrawl search "shiny odds" --collection demo
+corpuscrawl crawl --url https://www.mediawiki.org --type mediawiki --collection docs --max-pages 50
+corpuscrawl search "parser functions" --collection docs
 ```
 
 > A hosted playground (StackBlitz / GitHub Pages) is **N/A** here — corpuscrawl runs against real
@@ -92,8 +92,8 @@ pip install corpuscrawl                 # core (MediaWiki + static web)
 pip install "corpuscrawl[all]"          # + browser fallback, trafilatura, YAML configs
 
 # quickstart — no config file: crawl one wiki, then search it
-corpuscrawl crawl --url https://pokemongo.fandom.com --type mediawiki --collection pokemon-go
-corpuscrawl search "raid boss" --collection pokemon-go
+corpuscrawl crawl --url https://www.mediawiki.org --type mediawiki --collection docs
+corpuscrawl search "parser functions" --collection docs
 ```
 
 The browser-escalation tier uses a Chrome-for-Testing binary if one is present (from a prior
@@ -105,10 +105,10 @@ HTTP and just skips the escalation.
 ```jsonc
 // sources.json
 {
-  "collection": "pokemon-go",
+  "collection": "docs",
   "sources": [
-    { "id": "fandom-wiki", "name": "Fandom Wiki", "type": "mediawiki",
-      "url": "https://pokemongo.fandom.com", "scrape": true },
+    { "id": "mediawiki-docs", "name": "MediaWiki Docs", "type": "mediawiki",
+      "url": "https://www.mediawiki.org", "scrape": true },
     { "id": "guides", "name": "Guides", "type": "web",
       "url": "https://example.com/guides", "scrape": true },
     { "id": "toolsite", "name": "A Tool", "type": "tool", "url": "https://tool.example" }
@@ -118,29 +118,29 @@ HTTP and just skips the escalation.
 
 ```bash
 corpuscrawl crawl --config sources.json          # crawl every scrapeable source
-corpuscrawl list  --collection pokemon-go        # sources + page/image counts
-corpuscrawl info  --collection pokemon-go --source fandom-wiki   # provenance
-corpuscrawl search "shiny odds" --collection pokemon-go
+corpuscrawl list  --collection docs              # sources + page/image counts
+corpuscrawl info  --collection docs --source mediawiki-docs   # provenance
+corpuscrawl search "parser functions" --collection docs
 ```
 
 ## 📸 A look inside
 
-Building a corpus from a wiki (2,845 articles + 16,362 image URLs in ~70s), then searching it offline:
+Building a corpus from a wiki (3,046 articles + 16,362 image URLs in ~70s), then searching it offline:
 
 ```console
 $ corpuscrawl crawl --config sources.json
-=== crawl pokemon-go/fandom-wiki [mediawiki] https://pokemongo.fandom.com ===
+=== crawl docs/mediawiki-docs [mediawiki] https://www.mediawiki.org ===
   +3046 pages this run (3046 total, 16362 images) in 68s
-  pack: ~/.corpuscrawl/packs/pokemon-go/fandom-wiki/pack.sqlite
+  pack: ~/.corpuscrawl/packs/docs/mediawiki-docs/pack.sqlite
 
-$ corpuscrawl search "raid boss" --collection pokemon-go
-Raid Battle  (pokemon-go/fandom-wiki)
-  https://pokemongo.fandom.com/wiki/Raid_Battle
-  … A [Raid] [Boss] is a powerful Pokémon that appears at a Gym … defeat it within the time limit …
+$ corpuscrawl search "parser functions" --collection docs
+Extension:ParserFunctions  (docs/mediawiki-docs)
+  https://www.mediawiki.org/wiki/Extension:ParserFunctions
+  … [Parser] [functions] add logic and string handling to wikitext via {{#if:}}, {{#switch:}} … 
 
-Legendary Raid  (pokemon-go/fandom-wiki)
-  https://pokemongo.fandom.com/wiki/Legendary_Raid
-  … Legendary [Raid] [Boss]es rotate monthly and can be caught with Premier Balls …
+Help:Magic words  (docs/mediawiki-docs)
+  https://www.mediawiki.org/wiki/Help:Magic_words
+  … built-in variables and [parser] [functions] the software substitutes when a page is rendered …
 
 12 result(s)
 ```

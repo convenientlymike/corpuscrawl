@@ -17,7 +17,7 @@ def test_load_config_object(tmp_path: pathlib.Path):
     p.write_text(json.dumps({
         "collection": "kb",
         "sources": [
-            {"id": "wiki", "name": "Wiki", "type": "mediawiki", "url": "https://x.fandom.com", "scrape": True},
+            {"id": "wiki", "name": "Wiki", "type": "mediawiki", "url": "https://wiki.example.org", "scrape": True},
             {"id": "tool", "name": "Tool", "type": "tool", "url": "https://tool.example"},
         ],
     }))
@@ -63,10 +63,10 @@ def test_load_config_missing_file():
 
 
 def test_sources_from_url_derives_id():
-    srcs = sources_from_url("https://pokemongo.fandom.com", type="mediawiki")
+    srcs = sources_from_url("https://wiki.example.org", type="mediawiki")
     assert len(srcs) == 1
     assert srcs[0]["type"] == "mediawiki" and srcs[0]["scrape"] is True
-    assert srcs[0]["id"] == "pokemongo-fandom-com"
+    assert srcs[0]["id"] == "wiki-example-org"
 
 
 def test_validate_source_ok():
@@ -77,20 +77,21 @@ def test_validate_source_ok():
 
 def _seed(tmp_path):
     pack = CorpusPack("c", "s", packs_dir=tmp_path)
-    pack.upsert_page(title="Raid Battle", url="https://x/wiki/Raid",
-                     plaintext="A raid boss is a powerful Pokemon at a gym. Defeat it in time.",
-                     categories=["Category:Battle"], sections=[{"level": 2, "title": "Overview"}])
-    pack.upsert_page(title="Shiny", url="https://x/wiki/Shiny", plaintext="Shiny Pokemon have alternate colors.")
+    pack.upsert_page(title="Parser Functions", url="https://x/wiki/ParserFunctions",
+                     plaintext="A parser function adds logic to a template on a wiki. Evaluate it at render time.",
+                     categories=["Category:Help"], sections=[{"level": 2, "title": "Overview"}])
+    pack.upsert_page(title="Magic Words", url="https://x/wiki/MagicWords",
+                     plaintext="Magic words are variables the wiki software substitutes when a page renders.")
     pack.commit()
     return pack
 
 
 def test_search_ranks_and_snippets(tmp_path: pathlib.Path):
     pack = _seed(tmp_path)
-    hits = search_pack(pack, "raid boss")
-    assert hits and hits[0]["title"] == "Raid Battle"
-    assert "[raid]".lower() in hits[0]["snippet"].lower() or "raid" in hits[0]["snippet"].lower()
-    assert hits[0]["url"].endswith("/Raid")
+    hits = search_pack(pack, "parser function")
+    assert hits and hits[0]["title"] == "Parser Functions"
+    assert "[parser]".lower() in hits[0]["snippet"].lower() or "parser" in hits[0]["snippet"].lower()
+    assert hits[0]["url"].endswith("/ParserFunctions")
     pack.close()
 
 
@@ -103,8 +104,8 @@ def test_search_handles_punctuation_and_empty(tmp_path: pathlib.Path):
 
 def test_get_page(tmp_path: pathlib.Path):
     pack = _seed(tmp_path)
-    page = get_page(pack, "Raid Battle")
-    assert page and page["categories"] == ["Category:Battle"]
+    page = get_page(pack, "Parser Functions")
+    assert page and page["categories"] == ["Category:Help"]
     assert page["sections"][0]["title"] == "Overview"
     assert get_page(pack, "Missing") is None
     pack.close()

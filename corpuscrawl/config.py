@@ -3,10 +3,10 @@
 A config is domain-agnostic — a collection name plus a list of source specs:
 
     {
-      "collection": "pokemon-go",
+      "collection": "docs",
       "sources": [
-        {"id": "fandom-wiki", "name": "Fandom Wiki", "type": "mediawiki",
-         "url": "https://pokemongo.fandom.com", "scrape": true},
+        {"id": "mediawiki-docs", "name": "MediaWiki Docs", "type": "mediawiki",
+         "url": "https://www.mediawiki.org", "scrape": true},
         {"id": "guides", "name": "Guides", "type": "web",
          "url": "https://example.com/guides", "scrape": true},
         {"id": "tool-x", "name": "Tool X", "type": "tool", "url": "https://tool.example"}

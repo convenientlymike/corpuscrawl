@@ -27,7 +27,7 @@ import httpx
 
 log = logging.getLogger("corpuscrawl")
 
-# Honest, contactable UA — MediaWiki/Fandom etiquette asks for identification + purpose.
+# Honest, contactable UA — MediaWiki + crawler etiquette asks for identification + purpose.
 USER_AGENT = os.environ.get(
     "CORPUSCRAWL_UA",
     "corpuscrawl/1.0 (+https://github.com/convenientlymike/corpuscrawl)",

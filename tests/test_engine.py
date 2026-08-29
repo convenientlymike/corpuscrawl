@@ -53,13 +53,13 @@ def test_wall_detection_css_heavy_shell():
 # ── wikitext → plaintext / sections ─────────────────────────────────────────────────────────────
 
 def test_wikitext_strips_templates_links_tables():
-    wt = ("{{Infobox|a=1}}\nA '''Raid''' is a [[Gym|gym]] battle.<ref>cite</ref>\n"
-          "{| class=wikitable\n|foo\n|}\n== Mechanics ==\n[[File:Pic.png|thumb]]Body.")
+    wt = ("{{Infobox|a=1}}\nA '''Template''' is a [[Page|page]] element.<ref>cite</ref>\n"
+          "{| class=wikitable\n|foo\n|}\n== Syntax ==\n[[File:Pic.png|thumb]]Body.")
     out = wikitext_to_plaintext(wt)
     assert "Infobox" not in out and "{{" not in out
     assert "wikitable" not in out and "foo" not in out
     assert "cite" not in out and "Pic.png" not in out
-    assert "gym battle" in out and "Body." in out and "Mechanics" in out
+    assert "page element" in out and "Body." in out and "Syntax" in out
     assert "'''" not in out and "==" not in out
 
 
@@ -80,19 +80,19 @@ def test_extract_readable_lxml_fallback():
 
 def test_pack_roundtrip_and_fts(tmp_path: pathlib.Path):
     with CorpusPack("c", "s", packs_dir=tmp_path) as pack:
-        pack.upsert_page(title="Raid Battles", url="https://x/wiki/Raid",
-                         plaintext="A raid is a cooperative gym battle.", revid=42)
-        pack.upsert_page(title="Eggs", url="https://x/wiki/Eggs", plaintext="Eggs hatch after walking.")
+        pack.upsert_page(title="Templates", url="https://x/wiki/Templates",
+                         plaintext="A template is a reusable wiki fragment.", revid=42)
+        pack.upsert_page(title="Categories", url="https://x/wiki/Categories", plaintext="Categories group related pages.")
         pack.commit()
         assert pack.counts()["pages"] == 2
-        assert pack.has_page("Raid Battles") and not pack.has_page("Missing")
-        hits = [r[0] for r in pack.db.execute("SELECT title FROM pages_fts WHERE pages_fts MATCH 'gym'")]
-        assert "Raid Battles" in hits and "Eggs" not in hits
+        assert pack.has_page("Templates") and not pack.has_page("Missing")
+        hits = [r[0] for r in pack.db.execute("SELECT title FROM pages_fts WHERE pages_fts MATCH 'template'")]
+        assert "Templates" in hits and "Categories" not in hits
         # idempotent update keeps FTS coherent
-        pack.upsert_page(title="Eggs", plaintext="Eggs now mention gyms too.")
+        pack.upsert_page(title="Categories", plaintext="Categories can also embed a template.")
         pack.commit()
-        hits2 = [r[0] for r in pack.db.execute("SELECT title FROM pages_fts WHERE pages_fts MATCH 'gym'")]
-        assert "Eggs" in hits2
+        hits2 = [r[0] for r in pack.db.execute("SELECT title FROM pages_fts WHERE pages_fts MATCH 'template'")]
+        assert "Categories" in hits2
 
 
 def test_pack_images(tmp_path: pathlib.Path):

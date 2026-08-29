@@ -1,10 +1,10 @@
 """cli.py — the corpuscrawl command line.
 
   corpuscrawl crawl --config sources.json                 # crawl every scrapeable source
-  corpuscrawl crawl --url https://x.fandom.com --type mediawiki --collection x   # quickstart, no file
-  corpuscrawl search "raid boss" --collection pokemon-go  # full-text search the pack(s)
-  corpuscrawl list [--collection pokemon-go]              # collections / sources + pack stats
-  corpuscrawl info --collection pokemon-go --source fandom-wiki   # provenance
+  corpuscrawl crawl --url https://www.mediawiki.org --type mediawiki --collection docs  # quickstart, no file
+  corpuscrawl search "parser functions" --collection docs # full-text search the pack(s)
+  corpuscrawl list [--collection docs]                    # collections / sources + pack stats
+  corpuscrawl info --collection docs --source mediawiki-org   # provenance
   corpuscrawl reprocess --config sources.json            # re-derive plaintext from stored wikitext
 """
 from __future__ import annotations
